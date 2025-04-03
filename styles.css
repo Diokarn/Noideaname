@@ -44,3 +44,15 @@ img {
     margin-top: 20px; /* Un peu d'espace au-dessus */
     border-radius: 10px; /* Ajoute des coins arrondis à l'image */
 }
+
+ul {
+    list-style-position: inside; /* Place les puces à l'intérieur du bloc de la liste */
+    padding-left: 0;  /* Supprime le padding par défaut à gauche des listes */
+    margin-left: 0;   /* Supprime la marge à gauche des listes */
+}
+
+ul li {
+    margin: 10px 0;   /* Contrôle l'espacement vertical entre les éléments de la liste */
+    line-height: 1.5; /* Ajuste la hauteur de ligne pour rendre le texte plus lisible */
+    text-align: left; /* Assure que le texte soit aligné à gauche */
+}
