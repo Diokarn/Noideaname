@@ -36,3 +36,11 @@ img {
     padding: 10px;
     background: #ffcccb;
 }
+
+.image-fou {
+    width: 80%;   /* Limite la largeur de l'image à 80% de son conteneur */
+    height: auto; /* Garde les proportions de l'image */
+    max-width: 500px; /* Limite la largeur maximale de l'image à 500px */
+    margin-top: 20px; /* Un peu d'espace au-dessus */
+    border-radius: 10px; /* Ajoute des coins arrondis à l'image */
+}
